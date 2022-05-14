@@ -4,6 +4,7 @@
 int main(){
     char number[11];//__INT32_MAX__ = 2147483647
     int len;
+    printf("Enter a number: ");
     fgets(number,10,stdin);
     len = strlen(number) - 2;//Ignoring '\0' and setting the len equal to the index
     if(number[len] == '0' || number[len] == '2' || number[len] == '4' || number[len] == '6' || number[len] == '8')
