@@ -4,6 +4,7 @@
 int main(){
     char string[101];
     int len,flag = 1;
+    printf("Enter the string: ");
     scanf("%100[^\n]%*c",string);
     len = strlen(string)-1;
     printf("%d\n",len);
